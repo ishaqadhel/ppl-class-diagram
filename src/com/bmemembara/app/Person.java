@@ -4,6 +4,8 @@ public class Person {
     String ssn, name, birth_date, address;
     Character sex;
 
+    public Person() {}
+
     public Person (String ssn, String name, Character sex, String birth_date, String address) {
         this.ssn = ssn;
         this.name = name;
