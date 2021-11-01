@@ -4,6 +4,8 @@ public class Employee extends Person{
     Double salary;
     boolean is_active;
 
+    public Employee(){};
+
     public Employee(String ssn, String name, Character sex, String birth_date, String address, Double salary, boolean is_active) {
         super.ssn = ssn;
         super.name = name;
@@ -14,7 +16,7 @@ public class Employee extends Person{
         this.is_active = is_active;
     }
 
-    private String getEmployeeActiveStatus() {
+    public String getEmployeeActiveStatus() {
         if(this.is_active) {
             return "Active";
         } else {
