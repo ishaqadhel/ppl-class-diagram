@@ -10,9 +10,15 @@ public class Main {
         Payment payment = new Payment(r, "3a4d4d2c-0ab4-4258-a164-798f5c0bc5b9", 500000.0, "31 October 2021");
         Recipe recipe = new Recipe(r, "Albotil");
 
-        m.getMedicalHistory();
-        r.getRegistrationFullInformation();
-        payment.getPaymentInformation();
-        recipe.getRecipeInformation();
+//        d.getDoctorInformation();
+//        n.getNurseInformation();
+//        d.getPersonalInformation();
+//        d.getEmployeeActiveStatus();
+//        d.getEmployeeInformation();
+//        m.getMedicalHistory();
+//        r.getRegistrationSmallInformation();
+//        r.getRegistrationFullInformation();
+//        payment.getPaymentInformation();
+//        recipe.getRecipeInformation();
     }
 }
